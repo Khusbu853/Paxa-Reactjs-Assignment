@@ -1,0 +1,129 @@
+.card-container{
+    width: 100%;
+    padding: 1rem;
+    border-radius: .5rem;
+    background: #F4F4F4;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+.card-container.new{
+    background: none;
+}
+.card-id-wrapper{
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+}
+.card-id1{
+    height: 8px;
+    background: #F8BD1C;
+    width: 60px;
+    border-radius: 10px;
+
+}
+.card-id2{
+    height: 8px;
+    background: #4339F2;
+    width: 60px;
+    border-radius: 10px;
+
+}
+.card-id3{
+    height: 8px;
+    background: #FF3838;
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 5px;
+
+}
+.card-id4{
+    height: 8px;
+    background: #1AD698;
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 5px;
+
+}
+.card-id5{
+    height: 8px;
+    background: #0AAAF4;
+    width: 60px;
+    border-radius: 10px;
+
+}
+.card-id6{
+    height: 8px;
+    background: #891BE8;
+    width: 60px;
+    border-radius: 10px;
+    margin-left: 5px;
+}
+.card-profile{
+    height: 26px;
+    width: 26px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--white1);
+    background-color: #b06e0c;
+    border-radius: 50%;
+    font-size: .8rem;
+    position: relative;
+}
+.card-profile-initial{
+    text-transform: uppercase;
+}
+.card-profile-initial-available{
+    height: 12px;
+    width: 12px;
+    background-color: var(--grey1);
+    border: 1.5px solid var(--white1);
+    position: absolute;
+    z-index: 0;
+    border-radius: 50%;
+    left: 70%;
+    top: 70%;
+}
+.card-profile-initial-available-true{
+    background-color: rgb(72, 223, 12);
+}
+.card-title{
+    font-family: Poppins;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-align: left;
+}
+.card-title img{
+    margin-top: 8px;
+}
+.card-tag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: .8rem;
+}
+.card-tag-icon{
+    border-radius: .3rem;
+    width: fit-content;
+    height: 25px;
+    display: flex;
+    align-items: center;
+    margin-right: .5rem;
+    color:grey;
+
+}
+.card-tag-icon > svg{
+    color: var(--textgrey);
+    height: 20px;
+}
+.card-tag-box{
+    display: flex;
+    padding: .3rem 0px;
+    width: fit-content;
+}
+.card-tag-title{
+    font-size: .85rem;
+    font-weight: 500;
+    color: var(--textgrey);
+}
